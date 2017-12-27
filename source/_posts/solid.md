@@ -43,3 +43,7 @@ SOLID敏捷开发的五种原则。
 > B. Abstractions should not depend upon details. Details should depend upon abstractions.
 
   抽象不应该取决于细节； 细节应该取决于抽象。
+  
+  
+---
+参考自[《The SOLID Principles》](https://code.tutsplus.com/series/the-solid-principles--cms-634)
