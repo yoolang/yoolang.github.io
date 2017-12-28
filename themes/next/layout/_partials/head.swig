@@ -2,10 +2,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
-<meta name="apple-mobile-web-app-title" content="{{ config.title }}">
-<!-- 添加到主屏后的标题（iOS 6 新增） -->
 <meta name="apple-mobile-web-app-capable" content="yes"/>
-<!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="{{ theme.android_chrome_color }}">
+<meta name="apple-mobile-web-app-title" content="{{ config.title }}">
 
 
 
