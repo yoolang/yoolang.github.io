@@ -39,11 +39,11 @@ gulp.task('minify-js', function () {
 });
 
 gulp.task('images', function () {
-    gulp.src('./photos/*.*')
+    gulp.src('./public/images/*.*')
         .pipe(imagemin({
             progressive: true
         }))
-        .pipe(gulp.dest('dist/images'))
+        .pipe(gulp.dest('./public'))
 });
 
 gulp.task('build', [
