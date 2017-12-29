@@ -7,7 +7,7 @@ install:
 
 script:
   - hexo g
-  - gulp build
+  - gulp default
 
 after_script:
   - cd ./public
