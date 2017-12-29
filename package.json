@@ -22,6 +22,7 @@
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
     "gulp-clean-css": "^3.9.1",
     "gulp-htmlclean": "^2.7.16",
     "gulp-htmlmin": "^4.0.0",

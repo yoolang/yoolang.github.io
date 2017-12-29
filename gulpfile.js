@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var minifycss = require('gulp-clean-css');
+var babel = require('gulp-babel');
 var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var htmlclean = require('gulp-htmlclean');
@@ -50,7 +51,8 @@ gulp.task('minify-html', function() {
 });
 
 gulp.task('minify-js', function() {
-    return gulp.src('./public/**/**/*.js')
+    return gulp.src('./public/**/*.js')
+        .pipe(babel())
         .pipe(uglify())
         .pipe(gulp.dest('./public'));
 });
