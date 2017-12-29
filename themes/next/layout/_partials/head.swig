@@ -5,6 +5,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="{{ theme.android_chrome_color }}">
 <meta name="apple-mobile-web-app-title" content="{{ config.title }}">
+<meta name="google-site-verification" content="U3M1Z_Ye0JPu1N37a0P1O6u7Y9tUtEIV0MfPND8b5uI" />
 
 
 
