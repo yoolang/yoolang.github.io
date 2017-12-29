@@ -50,7 +50,7 @@ gulp.task('minify-html', function() {
 });
 
 gulp.task('minify-js', function() {
-    return gulp.src('./public/**/*.js')
+    return gulp.src('./public/**/**/*.js')
         .pipe(uglify())
         .pipe(gulp.dest('./public'));
 });
