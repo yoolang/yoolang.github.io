@@ -43,7 +43,7 @@ gulp.task('images', function() {
         }))
         .pipe(gulp.dest('./public/images/'));
 });
-// 压缩 public 目录 html文件 public/**/*.hmtl 表示public下所有文件夹中html，包括当前目录
+
 gulp.task('minify-html', function() {
     return gulp.src('./public/**/*.html')
         .pipe(htmlclean())
