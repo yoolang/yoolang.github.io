@@ -4,8 +4,6 @@ var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var htmlclean = require('gulp-htmlclean');
 
-var imagemin = require('gulp-imagemin');
-
 gulp.task('minify-css' , function () {
     return gulp.src('./public/**/*.css')
         .pipe(minifycss())
@@ -38,14 +36,6 @@ gulp.task('minify-js', function () {
         .pipe(gulp.dest('./public'));
 });
 
-gulp.task('images', function () {
-    gulp.src('./public/images/*.*')
-        .pipe(imagemin({
-            progressive: true
-        }))
-        .pipe(gulp.dest('./public'))
-});
-
 gulp.task('build', [
-    'minify-html', 'minify-css', 'minify-js', 'images'
+    'minify-html', 'minify-css', 'minify-js'
 ]);
