@@ -1,43 +1,49 @@
-var gulp = require('gulp');
-var minifycss = require('gulp-clean-css');
-var babel = require('gulp-babel');
-var uglify = require('gulp-uglify');
-var htmlmin = require('gulp-htmlmin');
-var htmlclean = require('gulp-htmlclean');
-var imagemin = require('gulp-imagemin');
-var del = require('del');
-var runSequence = require('run-sequence');
-var Hexo = require('hexo');
+var gulp = require('gulp'),
+    uglify = require('gulp-uglify'),
+    cssmin = require('gulp-minify-css'),
+    imagemin = require('gulp-imagemin'),
+    htmlmin = require('gulp-htmlmin'),
+    htmlclean = require('gulp-htmlclean'),
+    concat = require('gulp-concat');
 
-gulp.task('clean', function() {
-    return del(['public/**/*']);
+gulp.task('uglify', function() {
+    return gulp.src(['./public/js/**/.js','!./public/js/**/*min.js'])//只是排除min.js文件还是不严谨，一般不会有问题，根据自己博客的修改我的修改为return gulp.src(['./public/**/*.js','!./public/zuoxi/**/*.js',,'!./public/radio/**/*.js'])
+        .pipe(uglify())
+        .pipe(gulp.dest('./public/js'));//对应修改为./public即可
 });
 
-var hexo = new Hexo(process.cwd(), {});
-gulp.task('generate', function(cb) {
-    hexo.init().then(function() {
-        return hexo.call('generate', {
-            watch: false
-        });
-    }).then(function() {
-        return hexo.exit();
-    }).then(function() {
-        return cb()
-    }).catch(function(err) {
-        console.log(err);
-        hexo.exit(err);
-        return cb(err);
-    })
-})
+gulp.task('fancybox:js', function() {
+    return gulp.src('./public/vendors/fancybox/source/jquery.fancybox.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('./public/vendors/fancybox/source/'));
+});
 
-gulp.task('minify-css', function() {
-    return gulp.src('./public/**/*.css')
-        .pipe(minifycss({
-            compatibility: 'ie8'
-        }))
+gulp.task('jsall', function () {
+    return gulp.src('./public/**/*.js')
+        .pipe(concat('app.js'))
         .pipe(gulp.dest('./public'));
 });
 
+gulp.task('fancybox:css', function() {
+    return gulp.src('./public/vendors/fancybox/source/jquery.fancybox.css')
+        .pipe(cssmin())
+        .pipe(gulp.dest('./public/vendors/fancybox/source/'));
+});
+
+gulp.task('cssmin', function() {
+    return gulp.src(['./public/css/main.css','!./public/css/*min.css'])
+        .pipe(cssmin())
+        .pipe(gulp.dest('./public/css/'));
+});
+
+gulp.task('images', function() {
+    gulp.src('./public/images/*.*')
+        .pipe(imagemin({
+            progressive: false
+        }))
+        .pipe(gulp.dest('./public/images/'));
+});
+// 压缩 public 目录 html文件 public/**/*.hmtl 表示public下所有文件夹中html，包括当前目录
 gulp.task('minify-html', function() {
     return gulp.src('./public/**/*.html')
         .pipe(htmlclean())
@@ -49,36 +55,4 @@ gulp.task('minify-html', function() {
         }))
         .pipe(gulp.dest('./public'))
 });
-
-gulp.task('minify-js', function() {
-    return gulp.src('./public/**/*.js')
-        .pipe(babel())
-        .pipe(uglify())
-        .pipe(gulp.dest('./public'));
-});
-
-gulp.task('minify-img', function() {
-    return gulp.src('./public/images/**/*.*')
-        .pipe(imagemin())
-        .pipe(gulp.dest('./public/images'))
-})
-
-gulp.task('minify-img-aggressive', function() {
-    return gulp.src('./public/images/**/*.*')
-        .pipe(imagemin(
-            [imagemin.gifsicle({'optimizationLevel': 3}),
-                imagemin.jpegtran({'progressive': true}),
-                imagemin.optipng({'optimizationLevel': 7}),
-                imagemin.svgo()],
-            {'verbose': true}))
-        .pipe(gulp.dest('./public/images'))
-})
-
-gulp.task('compress', function(cb) {
-    runSequence(['minify-html', 'minify-css', 'minify-js', 'minify-img-aggressive'], cb);
-});
-
-gulp.task('build', function(cb) {
-    runSequence('clean', 'generate', 'compress', cb)
-});
-gulp.task('default', ['build'])
+gulp.task('build', ['uglify', 'jsall', 'cssmin', 'images', 'fancybox:js', 'fancybox:css','minify-html']);
