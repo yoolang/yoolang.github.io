@@ -1,49 +1,11 @@
-var gulp = require('gulp'),
-    uglify = require('gulp-uglify'),
-    cssmin = require('gulp-minify-css'),
-    imagemin = require('gulp-imagemin'),
-    htmlmin = require('gulp-htmlmin'),
-    htmlclean = require('gulp-htmlclean'),
-    concat = require('gulp-concat');
+var gulp = require('gulp');
+var minifycss = require('gulp-minify-css');
+var uglify = require('gulp-uglify');
+var htmlmin = require('gulp-htmlmin');
+var htmlclean = require('gulp-htmlclean');
+var imagemin = require('gulp-imagemin');
 
-gulp.task('uglify', function() {
-    return gulp.src(['./public/js/**/.js','!./public/js/**/*min.js'])//只是排除min.js文件还是不严谨，一般不会有问题，根据自己博客的修改我的修改为return gulp.src(['./public/**/*.js','!./public/zuoxi/**/*.js',,'!./public/radio/**/*.js'])
-        .pipe(uglify())
-        .pipe(gulp.dest('./public/js'));//对应修改为./public即可
-});
-
-gulp.task('fancybox:js', function() {
-    return gulp.src('./public/vendors/fancybox/source/jquery.fancybox.js')
-        .pipe(uglify())
-        .pipe(gulp.dest('./public/vendors/fancybox/source/'));
-});
-
-gulp.task('jsall', function () {
-    return gulp.src('./public/**/*.js')
-        .pipe(concat('app.js'))
-        .pipe(gulp.dest('./public'));
-});
-
-gulp.task('fancybox:css', function() {
-    return gulp.src('./public/vendors/fancybox/source/jquery.fancybox.css')
-        .pipe(cssmin())
-        .pipe(gulp.dest('./public/vendors/fancybox/source/'));
-});
-
-gulp.task('cssmin', function() {
-    return gulp.src(['./public/css/main.css','!./public/css/*min.css'])
-        .pipe(cssmin())
-        .pipe(gulp.dest('./public/css/'));
-});
-
-gulp.task('images', function() {
-    gulp.src('./public/images/*.*')
-        .pipe(imagemin({
-            progressive: false
-        }))
-        .pipe(gulp.dest('./public/images/'));
-});
-
+// 压缩html
 gulp.task('minify-html', function() {
     return gulp.src('./public/**/*.html')
         .pipe(htmlclean())
@@ -53,6 +15,34 @@ gulp.task('minify-html', function() {
             minifyCSS: true,
             minifyURLs: true,
         }))
-        .pipe(gulp.dest('./public'))
+        .pipe(gulp.dest('./public/'))
 });
-gulp.task('build', ['uglify', 'jsall', 'cssmin', 'images', 'fancybox:js', 'fancybox:css','minify-html']);
+// 压缩css
+gulp.task('minify-css', function() {
+    return gulp.src('./public/**/*.css')
+        .pipe(minifycss({
+            compatibility: 'ie8'
+        }))
+        .pipe(gulp.dest('./public/css'));
+});
+// 压缩js
+gulp.task('minify-js', function() {
+    return gulp.src('./public/**/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('./public/js'));
+});
+// 压缩图片
+gulp.task('minify-images', function() {
+    return gulp.src('./public/images/**/*.*')
+        .pipe(imagemin(
+            [imagemin.gifsicle({'optimizationLevel': 3}),
+                imagemin.jpegtran({'progressive': true}),
+                imagemin.optipng({'optimizationLevel': 7}),
+                imagemin.svgo()],
+            {'verbose': true}))
+        .pipe(gulp.dest('./public/images'))
+});
+// 默认任务
+gulp.task('default', [
+    'minify-html','minify-css','minify-js','minify-images'
+]);
