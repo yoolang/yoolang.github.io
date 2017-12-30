@@ -1,12 +1,6 @@
-User-agent: *
-Allow: /
-Allow: /archives/
-Allow: /images/
-Allow: /tags/
-Allow: /posts/
-
 Disallow: /js/
 Disallow: /css/
+Disallow: /images/
+Disallow: /lib/
 
-Sitemap: https://xiaolony.github.io/sitemap.xml
 
