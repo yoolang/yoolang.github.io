@@ -1,7 +1,13 @@
 User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /posts/
+Allow: /tags/
+
 Disallow: /js/
 Disallow: /css/
 Disallow: /images/
 Disallow: /lib/
 
+Sitemap: http://www.hunao.info/sitemap.xml
 
