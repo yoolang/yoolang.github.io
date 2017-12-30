@@ -1,5 +1,5 @@
 ---
-title: Travis-ci 持续部署 Hexo
+title: Travis-ci自动部署Hexo
 date: 2017-12-21 21:47:56
 tags:
   - '持续集成'
