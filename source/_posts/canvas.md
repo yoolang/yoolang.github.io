@@ -1,6 +1,6 @@
 ---
 title: 使用canvas绘制图形
-date: 2017-12-24 11:31:40
+date: 2017-12-24
 tags:
   - 'canvas'
   - 'html5'
