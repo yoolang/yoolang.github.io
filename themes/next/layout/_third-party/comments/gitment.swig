@@ -11,6 +11,6 @@
         client_secret: {{theme.gitment.ClientSecret}},
       },
     })
-    gitment.render('container')
+    gitment.render('github-comment')
   </script>
 {% endif %}
