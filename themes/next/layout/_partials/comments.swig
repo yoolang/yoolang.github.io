@@ -43,6 +43,24 @@
     <div class="comments" id="comments">
       <div id="SOHUCS"></div>
     </div>
+  {% elseif theme.gitment.enable %}
+    <div class="comments" id="comments">
+      <div id="container"></div>
+    </div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+      var gitment = new Gitment({
+        id: '页面 ID', // 可选。默认为 location.href
+        owner: '你的 GitHub ID',
+        repo: '存储评论的 repo',
+        oauth: {
+          client_id: '你的 client ID',
+          client_secret: '你的 client secret',
+        },
+      })
+      gitment.render('container')
+    </script>
   {% elseif theme.valine.appid and theme.valine.appkey %}
     <div class="comments" id="comments">
       <div id="vcomments"></div>
