@@ -47,20 +47,6 @@
     <div class="comments" id="comments">
       <div id="container"></div>
     </div>
-    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-    <script>
-      var gitment = new Gitment({
-        id: 'location.href', 
-        owner: {{theme.gitment.githubID}},
-        repo: {{theme.gitment.repo}},
-        oauth: {
-          client_id: {{theme.gitment.ClientID}},
-          client_secret: {{theme.gitment.ClientSecret}},
-        },
-      })
-      gitment.render('container')
-    </script>
   {% elseif theme.valine.appid and theme.valine.appkey %}
     <div class="comments" id="comments">
       <div id="vcomments"></div>
