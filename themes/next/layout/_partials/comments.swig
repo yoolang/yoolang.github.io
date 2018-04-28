@@ -51,12 +51,12 @@
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
       var gitment = new Gitment({
-        id: '页面 ID', // 可选。默认为 location.href
-        owner: '你的 GitHub ID',
-        repo: '存储评论的 repo',
+        id: 'location.href', 
+        owner: {{theme.gitment.githubID}},
+        repo: {{theme.gitment.repo}},
         oauth: {
-          client_id: '你的 client ID',
-          client_secret: '你的 client secret',
+          client_id: {{theme.gitment.ClientID}},
+          client_secret: {{theme.gitment.ClientSecret}},
         },
       })
       gitment.render('container')
