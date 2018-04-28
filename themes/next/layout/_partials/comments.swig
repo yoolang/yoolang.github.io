@@ -45,7 +45,7 @@
     </div>
   {% elseif theme.gitment.enable %}
     <div class="comments" id="comments">
-      <div id="container"></div>
+      <div id="github-comment"></div>
     </div>
   {% elseif theme.valine.appid and theme.valine.appkey %}
     <div class="comments" id="comments">
