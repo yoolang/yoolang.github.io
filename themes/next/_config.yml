@@ -364,7 +364,7 @@ changyan:
 # Github_comment
 gitment:
   enable: true
-  githubID: XiaolonY
+  githubID: xiaolony
   repo: xiaolony.github.io
   ClientID: 15513b2bee12a74b2888
   ClientSecret: 9bdab013518e7d3c9d8a70408dddb35957a07495
