@@ -4,6 +4,7 @@ date: 2017-12-24
 tags:
   - 'canvas'
   - 'html5'
+comment: true
 ---
 
 用canvas绘制图形，仅需三步
