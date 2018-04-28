@@ -361,6 +361,14 @@ changyan:
   appid:
   appkey:
 
+# Github_comment
+gitment:
+  enable: true
+  githubID: XiaolonY
+  repo: xiaolony.github.io
+  ClientID: 15513b2bee12a74b2888
+  ClientSecret: 9bdab013518e7d3c9d8a70408dddb35957a07495
+  lazy: false
 
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
