@@ -27,7 +27,3 @@ gulp.task('default', function() {
     }))
     .pipe(gulp.dest('public'));
 });
-
-function replaceBackSlash(str) {
-  return str.replace(/\\/g, '/');
-}
