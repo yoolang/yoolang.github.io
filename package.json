@@ -1,14 +1,13 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "XiaolonY's Notes",
+  "version": "1.0.0",
   "private": true,
   "hexo": {
     "version": "3.7.0"
   },
   "scripts": {
     "build": "hexo generate && gulp",
-    "eslint": "eslint .",
-    "deploy": "hexo deploy"
+    "eslint": "eslint ."
   },
   "dependencies": {
     "hexo": "github:hexojs/hexo",
