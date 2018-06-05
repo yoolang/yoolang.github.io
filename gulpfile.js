@@ -9,7 +9,7 @@ var gulpUniqueFiles = require('gulp-unique-files');
 var gulpUseRef = require('gulp-useref');
 var gulpCleanCSS = require('gulp-clean-css');
 
-gulp.task('useref', ['image'], function() {
+gulp.task('default', function() {
   var assets = gulpUseRef.assets({
     searchPath: 'public'
   });
@@ -27,8 +27,6 @@ gulp.task('useref', ['image'], function() {
     }))
     .pipe(gulp.dest('public'));
 });
-
-gulp.task('default', ['useref']);
 
 function replaceBackSlash(str) {
   return str.replace(/\\/g, '/');
