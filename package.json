@@ -6,7 +6,7 @@
     "version": "3.7.0"
   },
   "scripts": {
-    "build": "hexo g && gulp default",
+    "build": "hexo generate && gulp default",
     "eslint": "eslint ."
   },
   "dependencies": {
