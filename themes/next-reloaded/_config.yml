@@ -271,7 +271,7 @@ post_meta:
   item_text: true
   created_at: true
   updated_at:
-    enabled: true
+    enabled: false
     # If true, show updated date label only if `updated date` different from 'created date' (post edited in another day than was created).
     # And if post will edited in same day as created, edited time will show in popup title under created time label.
     # If false show anyway, but if post edited in same day, show only edited time.
@@ -568,10 +568,10 @@ needmoreshare2:
   postbottom:
     enable: true
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
       position: bottomCenter
-      networks: Weibo #,Wechat,Douban,QQZone #,Twitter,Facebook
+      networks: Weibo,Mailto #,Wechat,Douban,QQZone #,Twitter,Facebook
   float:
     enable: false
     options:
