@@ -571,14 +571,14 @@ needmoreshare2:
       iconStyle: box
       boxForm: horizontal
       position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone #,Twitter,Facebook
+      networks: Weibo #,Wechat,Douban,QQZone #,Twitter,Facebook
   float:
     enable: true
     options:
       iconStyle: box
       boxForm: horizontal
       position: middleRight
-      networks: Weibo,Wechat,Douban,QQZone #,Twitter,Facebook
+      networks: Weibo #,Wechat,Douban,QQZone #,Twitter,Facebook
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
