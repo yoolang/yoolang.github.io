@@ -573,7 +573,7 @@ needmoreshare2:
       position: bottomCenter
       networks: Weibo #,Wechat,Douban,QQZone #,Twitter,Facebook
   float:
-    enable: true
+    enable: false
     options:
       iconStyle: box
       boxForm: horizontal
