@@ -419,7 +419,7 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: Pinyon Script # Orbitron
+    family: Orbitron
     size:
 
   # Font settings for <code> and code blocks.
