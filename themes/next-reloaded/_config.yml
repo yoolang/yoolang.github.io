@@ -581,9 +581,12 @@ needmoreshare2:
       position: middleRight
       networks: Weibo #,Wechat,Douban,QQZone #,Twitter,Facebook
 
+# Baidu site verification setting
+baidu_site_verification: 2yAIgtzD7u
+
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: U3M1Z_Ye0JPu1N37a0P1O6u7Y9tUtEIV0MfPND8b5uI
 
 # Google Analytics
 google_analytics: UA-88670129-1
@@ -683,7 +686,6 @@ busuanzi_count:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: true
-baidu_site_verification: 2yAIgtzD7u
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
