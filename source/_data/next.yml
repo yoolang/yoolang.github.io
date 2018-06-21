@@ -39,7 +39,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -48,7 +48,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -74,7 +74,7 @@ theme: next-reloaded
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
+  type:
 
 # ---------------------------------------------------------------
 # Theme Core Configuration Settings
@@ -275,7 +275,7 @@ avatar:
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
   url: /images/logo.svg #/images/avatar.gif
-  # If true, the avatar would be dispalyed in circle. 
+  # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
