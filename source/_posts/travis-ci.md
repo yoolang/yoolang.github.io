@@ -1,9 +1,9 @@
 ---
 title: Travis-ci自动集成Hexo个人博客
-date: 2017-10-1 21:38:10
-categories: '学习笔记'
+date: 2017-10-01
+categories: 学习笔记
 tags:
-  - '持续集成'
+  - 持续集成
 ---
 
 自动化部署静态博客

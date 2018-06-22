@@ -1,9 +1,9 @@
 ---
 title: SOLID原则
-date: 2017-12-1 21:00:47
-categories: '学习笔记'
+date: 2017-12-01
+categories: 学习笔记
 tags:
-  - '设计模式'
+  - 设计模式
 ---
 
 SOLID敏捷开发的五种原则。
