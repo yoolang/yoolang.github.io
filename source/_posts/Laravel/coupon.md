@@ -6,4 +6,4 @@ tags:
 ---
 商城优惠券设计
 <!-- more -->
-![coupon_img](/image/Laravel/coupon_img.jpg)
+![coupon_img](/images/Laravel/coupon_img.jpg)
