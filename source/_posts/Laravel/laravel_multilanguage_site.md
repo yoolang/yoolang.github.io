@@ -1,7 +1,7 @@
 ---
 title: Laravel 多语言站点
 date: 2018-06-22
-categories: Laravel
+categories: Records
 tags:
     - Laravel
 ---
