@@ -1,6 +1,6 @@
 ---
 title: 优惠券设计
-categories: Laravel Records
+categories: Records
 tags:
   - 商城
 ---
