@@ -2,7 +2,9 @@
 title: 两数之和
 date: 2018-06-18
 categories: Leetcode
-tags: Leetcode
+tags: 
+  - Leetcode
+  - Array
 ---
 
 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
