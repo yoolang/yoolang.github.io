@@ -8,4 +8,4 @@ tags:
 ---
 商城优惠券设计
 <!-- more -->
-![优惠券](https://xiaolony.github.io/images/coupon_img.jpg '优惠券')
+![优惠券](coupon/coupon_img.jpg '优惠券')
