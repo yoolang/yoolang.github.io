@@ -10,4 +10,4 @@ copyright: false
 ---
 商城优惠券设计
 <!-- more -->
-![优惠券设计](coupon_design/coupon_design.jpg '优惠券设计')
+![优惠券设计](notes-coupon-design/coupon_design.jpg '优惠券设计')
