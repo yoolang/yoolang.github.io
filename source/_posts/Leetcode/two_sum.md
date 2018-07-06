@@ -1,7 +1,7 @@
 ---
 title: 两数之和
 date: 2018-06-18
-categories: leetcode
+categories: LEETCODE
 tags: 
   - Leetcode
   - Array

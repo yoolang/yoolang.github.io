@@ -1,7 +1,7 @@
 ---
 title: 优惠券设计
 date: 2018-06-28
-categories: notes
+categories: NOTES
 tags:
   - 商城
   - Laravel
@@ -10,4 +10,4 @@ copyright: false
 ---
 商城优惠券设计
 <!-- more -->
-![优惠券设计](notes-coupon-design/coupon_design.jpg '优惠券设计')
+![优惠券设计](coupon-design/coupon_design.jpg '优惠券设计')

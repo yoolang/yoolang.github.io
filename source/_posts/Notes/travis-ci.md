@@ -1,7 +1,7 @@
 ---
 title: Travis-ci自动集成Hexo个人博客
 date: 2017-10-01
-categories: notes
+categories: NOTES
 tags:
   - DevOps
   - Travis-ci

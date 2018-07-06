@@ -225,7 +225,7 @@ scheme: Gemini
 # ---------------------------------------------------------------
 
 # Posts / Categories / Tags in sidebar.
-site_state: false
+site_state: true
 
 # Social Links.
 # Usage: `Key: permalink || icon`
@@ -650,7 +650,7 @@ needmoreshare2:
       iconStyle: default
       boxForm: horizontal
       position: bottomCenter
-      networks: Weibo,Mailto #,Wechat,Douban,QQZone #,Twitter,Facebook
+      networks: Weibo,Mailto,Wechat,QQZone,Twitter,Facebook #,Douban #
   float:
     enable: false
     options:
