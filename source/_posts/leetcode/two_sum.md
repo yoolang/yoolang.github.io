@@ -13,6 +13,9 @@ copyright: false
 
 你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
 
+{% endcq %}
+<!-- more -->
+
 ##### 示例:
 
 ```
@@ -21,8 +24,6 @@ copyright: false
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
 ```
-{% endcq %}
-<!-- more -->
 
 ``` cpp
 class Solution {
