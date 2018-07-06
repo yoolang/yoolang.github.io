@@ -1,7 +1,7 @@
 # Site
 title: XiaolonY's Notes
 subtitle: 业精于勤, 荒于嬉; 行成于思, 毁于随
-description: 
+description: I want not to be a Muggle, so as to stay hungry and stay foolish.
 keywords: XiaolonY,Xiaolong,notes,杨晓龙,博客,blog
 author: Xiaolong Yang
 language: zh-CN
@@ -32,7 +32,7 @@ external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
-relative_link: true
+relative_link: false
 future: true
 highlight:
   enable: true
