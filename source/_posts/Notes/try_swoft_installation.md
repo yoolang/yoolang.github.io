@@ -1,7 +1,7 @@
 ---
 title: 初探 Swoft —— 安装
 date: 2018-03-14
-categories: Notes
+categories: notes
 tags:
   - PHP
   - Swoole
