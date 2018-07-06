@@ -5,8 +5,9 @@ categories: NOTES
 tags:
   - Laravel
 ---
-
+{% cq %}
 Laravel 开发多语言站点
+{% endcq %}
 <!-- more -->
 
 ### 目的

@@ -7,8 +7,9 @@ tags:
 comments: false
 copyright: false
 ---
-
+{% cq %}
 SOLID敏捷开发的五种原则。
+{% endcq %}
 <!-- more -->
 
 #### 单一职责

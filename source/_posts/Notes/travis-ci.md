@@ -8,8 +8,9 @@ tags:
 comments: false
 copyright: false
 ---
-
+{% cq %}
 自动化部署静态博客
+{% endcq %}
 <!-- more -->
 
 第一步， 在Github上新建一个仓库，用作存放博客；内设两个分支， 一个存放部署后即在网页中显示的内容， 另一个则存放部署前即Hexo源码内容。

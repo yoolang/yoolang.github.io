@@ -7,7 +7,9 @@ tags:
 comments: false
 copyright: false
 ---
+{% cq %}
 HTTP缓存机制
+{% endcq %}
 <!--more -->
 ### 缓存规则
 * `强制缓存` 只有在缓存不存在时，才会与服务器产生交互
