@@ -4,6 +4,8 @@ date: 2018-07-06
 categories: Notes
 tags:
   - 缓存
+comments: false
+copyright: false
 ---
 HTTP缓存机制
 <!--more -->

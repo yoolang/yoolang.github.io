@@ -5,6 +5,8 @@ categories: Notes
 tags:
   - DevOps
   - Travis-ci
+comments: false
+copyright: false
 ---
 
 自动化部署静态博客

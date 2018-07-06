@@ -5,6 +5,8 @@ categories: Notes
 tags:
   - 商城
   - Laravel
+comments: false
+copyright: false
 ---
 商城优惠券设计
 <!-- more -->

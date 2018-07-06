@@ -4,6 +4,8 @@ date: 2017-12-01
 categories: Notes
 tags:
   - 设计模式
+comments: false
+copyright: false
 ---
 
 SOLID敏捷开发的五种原则。
