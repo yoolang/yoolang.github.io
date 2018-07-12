@@ -6,8 +6,8 @@ install:
   - npm install
 
 script:
-  - hexo clean --config source/_data/_config.yml
-  - hexo generate --config source/_data/_config.yml
+  - hexo clean
+  - hexo generate
   - npm run eslint
   - npm run build
 
