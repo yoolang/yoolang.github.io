@@ -6,8 +6,8 @@ install:
   - npm install
 
 script:
-  - hexo clean --config source/_data/next.yml
-  - hexo generate --config source/_data/next.yml
+  - hexo clean
+  - hexo generate
   - npm run eslint
   - npm run build
 
