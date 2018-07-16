@@ -1,5 +1,5 @@
 ---
-title: 两数之和
+title: 两数相加
 date: 2018-06-25
 categories: LEETCODE
 tags:
