@@ -1,9 +1,9 @@
 ---
 title: 两数之和
 date: 2018-06-18
-categories: LEETCODE
+categories: LeetCode
 tags: 
-  - Leetcode
+  - LeetCode
   - Array
 comments: false
 copyright: false
@@ -12,7 +12,6 @@ copyright: false
 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
 
 你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
-
 {% endcq %}
 <!-- more -->
 

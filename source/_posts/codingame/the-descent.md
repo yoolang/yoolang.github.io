@@ -3,7 +3,8 @@ title: The Descent
 date: 2018-07-15
 categories: CodinGame
 tags:
-    - codingame
+    - CodinGame
+comments: false
 ---
 ### The Goal
 Destroy the mountains before your starship collides with one of them. For that, shoot the highest mountain on your path.
