@@ -8,7 +8,6 @@ install:
 script:
   - hexo clean
   - hexo generate
-  - npm run eslint
   - npm run build
 
 after_script:
