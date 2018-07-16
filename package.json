@@ -6,8 +6,7 @@
     "version": "3.7.0"
   },
   "scripts": {
-    "build": "gulp default",
-    "eslint": "eslint ."
+    "build": "gulp default"
   },
   "dependencies": {
     "hexo": "github:hexojs/hexo",
@@ -26,8 +25,6 @@
     "hexo-symbols-count-time": "0.4.2"
   },
   "devDependencies": {
-    "eslint": "^4.3.0",
-    "eslint-config-hexo": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",
     "gulp-if": "^2.0.0",
