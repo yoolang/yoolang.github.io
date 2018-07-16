@@ -1,7 +1,7 @@
 ---
 title: 优惠券设计
 date: 2018-06-28
-categories: NOTES
+categories: 学习笔记
 tags:
   - 商城
   - Laravel

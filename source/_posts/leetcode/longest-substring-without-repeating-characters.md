@@ -3,7 +3,6 @@ title:
 date: 2018-07-16
 categories: LeetCode
 tags:
-  - LeetCode
   - String
 comments: false
 copyright: false

@@ -1,7 +1,7 @@
 ---
 title: SOLID原则
 date: 2017-12-01
-categories: NOTES
+categories: 学习笔记
 tags:
   - 设计模式
 comments: false

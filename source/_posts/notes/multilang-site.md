@@ -1,7 +1,7 @@
 ---
 title: Laravel 多语言站点
 date: 2018-06-22
-categories: NOTES
+categories: 学习笔记
 tags:
   - Laravel
 ---

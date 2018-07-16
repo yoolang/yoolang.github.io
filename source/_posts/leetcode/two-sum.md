@@ -3,7 +3,6 @@ title: 两数之和
 date: 2018-06-18
 categories: LeetCode
 tags: 
-  - LeetCode
   - Array
 comments: false
 copyright: false

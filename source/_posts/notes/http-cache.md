@@ -1,7 +1,7 @@
 ---
 title: HTTP缓存
 date: 2018-07-06
-categories: NOTES
+categories: 学习笔记
 tags:
   - 缓存
 comments: false
