@@ -1,6 +1,6 @@
 ---
 title: 接口就是大纲
-data: 2018-07-18
+date: 2018-07-18
 categories: 学习笔记
 tags:
   - 设计模式
