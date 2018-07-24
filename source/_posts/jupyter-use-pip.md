@@ -6,5 +6,7 @@ tags:
     - Python
     - Jupyter
 ---
+{% cq %}
 在Jupyter Notebook中使用 pip 安装 python 包 `!pip install <package>`
 以此类推，在 Jupyter Notebook中使用命令行即在命令前加上`!`即可
+{% endcq %}
