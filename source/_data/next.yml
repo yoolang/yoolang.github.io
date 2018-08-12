@@ -188,7 +188,11 @@ links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
-#links:
+links:
+  风雪之隅: http://www.laruence.com
+  韩天峰(Rango)的博客: http://rango.swoole.com/
+  阮一峰的网络日志: http://www.ruanyifeng.com/blog/
+  廖雪峰的官方网站: https://liaoxuefeng.com/
   #Title: http://example.com/
 
 # Sidebar Avatar
