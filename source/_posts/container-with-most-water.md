@@ -6,6 +6,7 @@ tags:
   - Array
 comments: false
 copyright: false
+mathjax: true
 ---
 给定 n 个非负整数 $a_{1}, a_{2}, ..., a_{n}$，每个数代表坐标中的一个点 (i, $a_{i}$) 。在坐标内画 n 条垂直线，垂直线 i 的两个端点分别为 (i, $a_{i}$) 和 (i, 0)。找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水。
 <!-- more -->
