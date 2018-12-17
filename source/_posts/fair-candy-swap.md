@@ -4,7 +4,6 @@ date: 2018-08-29
 categories: LeetCode
 tags:
   - Array
-  - C++
 comments: false
 copyright: false
 ---
