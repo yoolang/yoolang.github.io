@@ -5,7 +5,6 @@ categories: LeetCode
 tags:
   - Array
   - String
-  - C++
 comments: false
 copyright: false
 ---
