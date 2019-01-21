@@ -8,7 +8,7 @@ comments: false
 copyright: false
 ---
 {% cq %}
-最后换了 Debian 9 的系统，重新部署了一下开发环境。在安装完 VsCode 之后，发现在终端里输出中文文件名时出现一堆 ??? 。
+最近换了 Debian 9 的系统，重新部署了一下开发环境。在安装完 VsCode 之后，发现在终端里输出中文文件名时出现一堆 ??? 。
 {% endcq %}
 <!-- more -->
 ### 原因分析
