@@ -525,16 +525,16 @@ valine:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
-  enable: true
+  enable: false
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: true # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: XiaolonY # MUST HAVE, Your Github Username
-  github_repo: xiaolony.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: 15513b2bee12a74b2888 # MUST HAVE, Github client id for the Gitment
-  client_secret: 4d121d6e58097962b6ff159f2de0c934eae75393 # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: #XiaolonY # MUST HAVE, Your Github Username
+  github_repo: #xiaolony.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: #15513b2bee12a74b2888 # MUST HAVE, Github client id for the Gitment
+  client_secret: #4d121d6e58097962b6ff159f2de0c934eae75393 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
