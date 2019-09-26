@@ -3,8 +3,7 @@ title: 反转整数
 date: 2018-08-01
 categories: LeetCode
 tags:
-  - Integer
-comments: false
+  - 整数
 copyright: false
 ---
 {% cq %}

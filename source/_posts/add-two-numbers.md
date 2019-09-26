@@ -3,8 +3,7 @@ title: 两数相加
 date: 2018-06-25
 categories: LeetCode
 tags:
-  - Linked-List
-comments: false
+  - 链表
 copyright: false
 ---
 {% cq %}

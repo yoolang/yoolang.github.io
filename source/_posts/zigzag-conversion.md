@@ -3,8 +3,7 @@ title: Z字形变换
 date: 2018-07-30
 categories: LeetCode
 tags:
-  - String
-comments: false
+  - 字符串
 copyright: false
 ---
 将字符串 "PAYPALISHIRING" 以Z字形排列成给定的行数：

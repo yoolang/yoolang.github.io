@@ -3,8 +3,7 @@ title: 亲密字符串
 date: 2018-08-27
 categories: LeetCode
 tags:
-  - String
-comments: false
+  - 字符串
 copyright: false
 ---
 {% cq %}

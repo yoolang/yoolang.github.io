@@ -3,8 +3,7 @@ title: 两数之和
 date: 2018-06-18
 categories: LeetCode
 tags: 
-  - Array
-comments: false
+  - 数组
 copyright: false
 ---
 {% cq %}

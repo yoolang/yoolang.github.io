@@ -3,9 +3,8 @@ title: 括号生成
 date: 2018-08-21
 categories: LeetCode
 tags:
-  - Array
-  - String
-comments: false
+  - 数组
+  - 字符串
 copyright: false
 ---
 {% cq %}

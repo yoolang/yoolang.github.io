@@ -4,7 +4,6 @@ date: 2018-07-15
 categories: CodinGame
 tags:
     - 最大数
-comments: false
 ---
 {% cq %}
 Destroy the mountains before your starship collides with one of them. For that, shoot the highest mountain on your path.

@@ -4,7 +4,6 @@ date: 2018-08-06
 categories: 读书
 tags:
     - Linux
-comments: false
 copyright: false
 ---
 {% cq %}

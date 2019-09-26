@@ -3,8 +3,7 @@ title: 公平的糖果交换
 date: 2018-08-29
 categories: LeetCode
 tags:
-  - Array
-comments: false
+  - 数组
 copyright: false
 ---
 ```

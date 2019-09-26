@@ -3,8 +3,7 @@ title: 移除元素
 date: 2018-08-20
 categories: LeetCode
 tags:
-  - Array
-comments: false
+  - 数组
 copyright: false
 ---
 {% cq %}

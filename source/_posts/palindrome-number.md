@@ -3,8 +3,7 @@ title: 回文数
 date: 2018-08-02
 categories: LeetCode
 tags:
-  - Integer
-comments: false
+  - 整数
 copyright: false
 ---
 {% cq %}

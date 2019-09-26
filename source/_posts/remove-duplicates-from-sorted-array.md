@@ -3,8 +3,7 @@ title: 删除排序数组中的重复项
 date: 2018-08-19
 categories: LeetCode
 tags:
-  - Array
-comments: false
+  - 数组
 copyright: false
 ---
 {% cq %}

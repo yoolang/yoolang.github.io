@@ -3,8 +3,7 @@ title: 最长的斐波那契子序列的长度
 date: 2018-08-22
 categories: LeetCode
 tags:
-  - Array
-comments: false
+  - 数组
 copyright: false
 ---
 如果序列 X_1, X_2, ..., X_n 满足下列条件，就说它是 斐波那契式 的：

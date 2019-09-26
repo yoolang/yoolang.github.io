@@ -4,7 +4,6 @@ date: 2018-07-18
 categories: 学习笔记
 tags:
   - 设计模式
-comments: false
 ---
 {% cq %}
 Interfaces are helpful for developing a "skeleton" of defined functionality provided by your application. Use them during the design phase of a component to facilicate design discussion amongst your team. For example, define a BillingNotifierInterface and discuss its methods with your team. Use the interface to agree on a good API before you actually write any implementation code!

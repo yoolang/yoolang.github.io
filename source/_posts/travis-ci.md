@@ -4,8 +4,6 @@ date: 2017-10-01
 categories: 学习笔记
 tags:
   - DevOps
-  - Travis-ci
-comments: false
 copyright: false
 ---
 {% cq %}

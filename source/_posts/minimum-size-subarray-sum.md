@@ -3,8 +3,7 @@ title: 长度最小的子数组
 date: 2018-08-28
 categories: LeetCode
 tags:
-  - Array
-comments: false
+  - 数组
 copyright: false
 ---
 {% cq %}

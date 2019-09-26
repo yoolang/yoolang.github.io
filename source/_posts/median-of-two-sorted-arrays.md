@@ -3,8 +3,7 @@ title: 两个排序数组的中位数
 date: 2018-07-20
 categories: LeetCode
 tags:
-  - Array
-comments: false
+  - 数组
 copyright: false
 ---
 {% cq %}

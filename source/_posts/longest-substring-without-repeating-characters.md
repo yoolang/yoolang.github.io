@@ -3,8 +3,7 @@ title: 无重复字符的最长子串
 date: 2018-07-16
 categories: LeetCode
 tags:
-  - String
-comments: false
+  - 字符串
 copyright: false
 ---
 {% cq %}

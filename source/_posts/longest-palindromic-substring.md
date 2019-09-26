@@ -3,8 +3,7 @@ title: 最长回文子串
 date: 2018-07-26
 categories: LeetCode
 tags:
-  - String
-comments: false
+  - 字符串
 copyright: false
 ---
 {% cq %}

@@ -3,9 +3,8 @@ title: 字符串转整数
 date: 2018-08-01
 categories: LeetCode
 tags:
-  - String
-  - Integer
-comments: false
+  - 字符串
+  - 整数
 copyright: false
 ---
 ```

@@ -3,8 +3,7 @@ title: 盛最多水的容器
 date: 2018-08-13
 categories: LeetCode
 tags:
-  - Array
-comments: false
+  - 数组
 copyright: false
 mathjax: true
 ---
