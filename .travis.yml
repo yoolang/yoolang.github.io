@@ -7,7 +7,7 @@ install:
 
 script:
   - hexo clean
-  - hexo generate
+  - hexo generate --config next.yml
   - npm run build
 
 after_script:
