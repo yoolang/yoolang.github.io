@@ -462,7 +462,7 @@ font:
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family: EB Garamond
+    family: ZCOOL XiaoWei
 
   # Font settings for <code> and code blocks.
   codes:
