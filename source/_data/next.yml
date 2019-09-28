@@ -447,31 +447,27 @@ font:
     family: Abel
     size:
 
-  # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
-  # Fallback to `global` font settings.
+  # Font settings for site title (.site-title).
+  title:
+    external: true
+    family: Orbitron
+    size:
+
+  # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
     family: Source Serif Pro
     size:
 
-  # Font settings for posts.
-  # Fallback to `global` font settings.
+  # Font settings for posts (.post-body).
   posts:
     external: true
     family: EB Garamond
-
-  # Font settings for Logo.
-  # Fallback to `global` font settings.
-  logo:
-    external: true
-    family: Orbitron
-    size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
     family: Inconsolata
-    size:
 
 
 # ---------------------------------------------------------------
