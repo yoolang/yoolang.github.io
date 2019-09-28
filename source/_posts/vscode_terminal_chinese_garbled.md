@@ -1,5 +1,6 @@
 ---
 title: VsCode 终端中文乱码解决办法
+date: 2018-12-25
 categories: 学习笔记
 tags:
   - 开发工具
