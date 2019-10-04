@@ -10,4 +10,5 @@ Disallow: /images/
 Disallow: /lib/
 
 Sitemap: /sitemap.xml
+Sitemap: /baidusitemap.xml
 
