@@ -444,7 +444,7 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Abel
+    family: ZCOOL QingKe HuangYou #Abel
     size:
 
   # Font settings for site title (.site-title).
