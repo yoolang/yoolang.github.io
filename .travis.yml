@@ -3,9 +3,11 @@ language: node_js
 node_js: stable
 
 install:
-  - npm clean cache
-  - npm install
-
+  - npm ci
+  
+cache:
+  npm: false
+  
 script:
   - hexo clean
   - hexo generate
