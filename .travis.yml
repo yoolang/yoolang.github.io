@@ -3,6 +3,7 @@ language: node_js
 node_js: stable
 
 install:
+  - npm clean cache
   - npm install
 
 script:
