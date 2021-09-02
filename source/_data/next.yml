@@ -209,7 +209,7 @@ links_settings:
   # Available values: block | inline
   layout: inline
 links:
-  默小伟博客: http://www.zhicaipt.cn/
+  #默小伟博客: http://www.zhicaipt.cn/
   #Title: http://example.com/
 
 # Table Of Contents in the Sidebar
