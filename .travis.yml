@@ -16,10 +16,10 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "xiaolony"
-  - git config user.email "xiaolony@hotmail.com"
+  - git config user.name "xiaolong"
+  - git config user.email "refactoring@aliyun.com"
   - git add .
-  - git commit -m "pulish some articles"
+  - git commit -m "publish some articles"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 
 branches:
